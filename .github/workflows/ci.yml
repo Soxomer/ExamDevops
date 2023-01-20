@@ -1,4 +1,4 @@
-name: revision v2 devops
+name: Exam CI
 
 on:
   pull_request:
