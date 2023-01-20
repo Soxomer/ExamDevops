@@ -18,3 +18,9 @@ describe("validations tests suites - isEmpty", () => {
 });
 
 // TODO: Create tests suite for validation function
+describe("validations tests suite - checkButton()", () => {
+    test("should return true as the label is undefined", () => {
+        const result = isEmpty();
+        expect(result).toBe(true);
+    });
+});
